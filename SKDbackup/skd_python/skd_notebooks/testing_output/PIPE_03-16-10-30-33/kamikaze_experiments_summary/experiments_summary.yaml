@@ -1,0 +1,30 @@
+'0.5':
+  controller_multiplier: 0.5
+  safe_traj_file_summaries:
+  - safe_traj_file_log_dirs:
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_0.5/traj_set_5/ST_0
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_0.5/traj_set_5/ST_1
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_0.5/traj_set_5/ST_2
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_0.5/traj_set_5/ST_3
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_0.5/traj_set_5/ST_4
+    safe_traj_filepath: /home/ivan/SKD_DEVEL/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json
+'1.0':
+  controller_multiplier: 1.0
+  safe_traj_file_summaries:
+  - safe_traj_file_log_dirs:
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.0/traj_set_5/ST_0
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.0/traj_set_5/ST_1
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.0/traj_set_5/ST_2
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.0/traj_set_5/ST_3
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.0/traj_set_5/ST_4
+    safe_traj_filepath: /home/ivan/SKD_DEVEL/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json
+'1.1':
+  controller_multiplier: 1.1
+  safe_traj_file_summaries:
+  - safe_traj_file_log_dirs:
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.1/traj_set_5/ST_0
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.1/traj_set_5/ST_1
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.1/traj_set_5/ST_2
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.1/traj_set_5/ST_3
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-30-33/kamikaze_traj_gen_experiments_logs/controller_m_1.1/traj_set_5/ST_4
+    safe_traj_filepath: /home/ivan/SKD_DEVEL/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json

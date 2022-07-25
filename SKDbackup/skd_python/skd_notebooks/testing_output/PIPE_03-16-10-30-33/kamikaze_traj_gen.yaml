@@ -1,0 +1,9 @@
+attempts_per_goal: 5
+controller_multipliers:
+- 0.5
+- 1.0
+- 1.1
+kamikaze_cfg_file: /home/ivan/SKD_DEVEL/skd_oppt/cfg/SKDBasicController/KamikazeTrajGen.cfg
+max_trajs_per_file: 5
+safe_traj_files:
+- /home/ivan/SKD_DEVEL/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json

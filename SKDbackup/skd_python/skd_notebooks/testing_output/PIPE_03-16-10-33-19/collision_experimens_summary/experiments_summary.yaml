@@ -1,0 +1,45 @@
+'0.5':
+  controller_multiplier: 0.5
+  safe_traj_file_summaries:
+  - safe_traj_file_log_dirs:
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_0
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_1
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_2
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_3
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_4
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_5
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_6
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_7
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_8
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_0.5/traj_set_5/ST_9
+    safe_traj_filepath: /home/ivan/SKD5/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json
+'1':
+  controller_multiplier: 1
+  safe_traj_file_summaries:
+  - safe_traj_file_log_dirs:
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_0
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_1
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_2
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_3
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_4
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_5
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_6
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_7
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_8
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1/traj_set_5/ST_9
+    safe_traj_filepath: /home/ivan/SKD5/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json
+'1.1':
+  controller_multiplier: 1.1
+  safe_traj_file_summaries:
+  - safe_traj_file_log_dirs:
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_0
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_1
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_2
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_3
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_4
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_5
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_6
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_7
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_8
+    - /home/ivan/SKD5/skd_python/skd_notebooks/testing_output/PIPE_03-16-10-33-19/controller_m_1.1/traj_set_5/ST_9
+    safe_traj_filepath: /home/ivan/SKD5/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json

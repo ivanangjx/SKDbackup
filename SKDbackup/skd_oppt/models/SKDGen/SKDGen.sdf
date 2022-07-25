@@ -1,0 +1,351 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+<world name='SKDGen'>
+
+<!--   <gui>
+        <camera name="user_camera">
+            <pose>100 0 0          0 0 0</pose>
+        </camera>
+  </gui> -->
+
+	 <!-- Model of the Robot -->
+    <include>
+      <uri>model://Car</uri>
+      <pose>0 0 0.65 0 0 0</pose>
+    </include>
+
+    <!-- Model of the cylinder cup  -->
+    <model name="Pedestrian">
+      <link name='PedestrianLink'>
+          <pose>20 0 0.93 0 -0 0</pose>
+          <collision name='PedCollision'>
+            <geometry>
+              <cylinder>
+                <radius>0.34</radius>
+                <length>1.86</length>         
+              </cylinder>
+            </geometry>
+          </collision>
+          <visual name='PedCollision'>
+            <geometry>
+              <cylinder>
+                <radius>0.34</radius>
+                <length>1.86</length>        
+              </cylinder>
+            </geometry>
+            <material>
+              <ambient> 0 1 0 1 </ambient>
+            </material>            
+          </visual>
+      </link>
+    </model>   
+
+    <model name="GoalStrip">
+      <link name='GoalStrip'>
+          <pose>12 -4 0.5 0 -0 0</pose>
+          <visual name='GoalStripVisual'>
+            <geometry>
+              <box>
+                <size>30 0.25 1</size>
+              </box>
+            </geometry>          
+            <material>
+              <!-- <ambient> 1 1 0 1 </ambient> -->
+            </material>  
+          </visual>
+      </link>
+
+      <link name='MidLane'>
+          <pose>12 0 0 0 -0 0</pose>
+          <visual name='MidLaneVisual'>
+            <geometry>
+              <box>
+                <size>30 0.1 0.05</size>
+              </box>
+            </geometry>     
+            <material>
+              <!-- <ambient> 1 1 0 1 </ambient> -->
+            </material>     
+          </visual>
+      </link>
+
+       <link name='StartingStrip'>
+          <pose>12 4 0.5 0 -0 0</pose>
+          <visual name='MidLaneVisual'>
+            <geometry>
+              <box>
+                <size>30 0.1 1</size>
+              </box>
+            </geometry>     
+            <material>
+              <!-- <ambient> 1 1 0 1 </ambient> -->
+            </material>     
+          </visual>
+      </link>
+    </model>   
+
+
+    <model name="floor">
+      <pose frame=''>12 0 -0.05 0 0 0</pose>
+      <static>1</static>
+      <link name="foorlink">
+      <visual name="floorvisual">
+        <geometry>
+          <box>
+            <size>30 30 0.005</size>
+          </box>
+        </geometry>
+        <material>            
+            <ambient>1 1 1 1.0</ambient>
+          </material>
+      </visual>
+      <collision name="floorcollision">
+        <geometry>
+          <box>
+            <size>20 20 0.005</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+
+    <model name="crossing">
+      <pose frame=''>20 0 0 0 0 0</pose>
+      <static>1</static>
+      <link name="foorlink">
+      <visual name="floorvisual">
+        <geometry>
+          <box>
+            <size>2 8 0.005</size>
+          </box>
+        </geometry>
+        <material>            
+            <ambient>1 1 0 1</ambient>
+          </material>
+      </visual>
+<!--       <collision name="floorcollision">
+        <geometry>
+          <box>
+            <size>20 20 0.005</size>
+          </box>
+        </geometry>
+      </collision> -->
+    </link>
+  </model>
+
+
+<!--     <model name="leftbound">
+      <pose frame=''>20 0 0 0 0 0</pose>
+      <static>1</static>
+      <link name="foorlink">
+      <visual name="floorvisual">
+        <geometry>
+          <box>
+            <size> 1  20 1</size>
+          </box>
+        </geometry>
+        <material>            
+            <ambient>1 1 1 1</ambient>
+          </material>
+      </visual>
+      <collision name="leftboundcollision">
+        <geometry>
+          <box>
+            <size>1 20 1</size>
+          </box>
+        </geometry>
+      </collision>
+      </link>
+    </model>
+ -->
+  <!-- ########################################################## -->
+
+<!--   <model name="safetraj0">
+    <link name='safetraj0Link'>
+      <pose>20.0407609995413 3.0 0.1 0 -0 0</pose>
+      <visual name='safetraj0'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model>
+
+  <model name="safetraj1">
+    <link name='safetraj1Link'>
+      <pose>20.6184062393337 2.1666666666666665 0.1 0 -0 0</pose>
+      <visual name='safetraj1'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+
+  <model name="safetraj2">
+    <link name='safetraj2Link'>
+      <pose>20.99605147912608 1.3333333333333333 0.1 0 -0 0</pose>
+      <visual name='safetraj2'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+
+  <model name="safetraj3">
+    <link name='safetraj3Link'>
+      <pose>20.77369671891847 0.5 0.1 0 -0 0</pose>
+      <visual name='safetraj3'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+ 
+  <model name="safetraj4">
+    <link name='safetraj4Link'>
+      <pose>20.35134195871088 -0.3333333333333335 0.1 0 -0 0</pose>
+      <visual name='safetraj4'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model>
+
+  <model name="safetraj5">
+    <link name='safetraj5Link'>
+      <pose>20.92898719850326 -1.166666666666667 0.1 0 -0 0</pose>
+      <visual name='safetraj5'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+
+  <model name="safetraj6">
+    <link name='safetraj6Link'>
+      <pose>20.50663243829565 -2.0 0.1 0 -0 0</pose>
+      <visual name='safetraj6'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+
+  <model name="safetraj7">
+    <link name='safetraj7Link'>
+      <pose>20.99907986483431 -2.8333333333333335 0.1 0 -0 0</pose>
+      <visual name='safetraj7'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+
+  <model name="safetraj8">
+    <link name='safetraj8Link'>
+      <pose>20.49152729137298 -3.666666666666667 0.1 0 -0 0</pose>
+      <visual name='safetraj8'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> 
+
+  <model name="safetraj9">
+    <link name='safetraj9Link'>
+      <pose>20.98397471791164 -4.5 0.1 0 -0 0</pose>
+      <visual name='safetraj9'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model> -->
+
+<!--   <model name="safetraj10">
+    <link name='safetraj10Link'>
+      <pose>20 0 0.1 0 -0 0</pose>
+      <visual name='safetraj10'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>        
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient> 0 0.9 0 1 </ambient>
+        </material>            
+      </visual>
+    </link>
+  </model>  -->
+
+</world>
+</sdf>

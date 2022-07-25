@@ -1,0 +1,11 @@
+car_controller_type: basic
+max_num_steps: 15
+max_trajs_per_file: 1
+multiplier_ids:
+- 0.7
+- 0.9
+- 1
+- 1.1
+num_runs: 1
+safe_trajectory_files:
+- /home/ivan/SKDOri/skd_python/skd_trajectories/skd_trajectories_db/traj_set_5.json
